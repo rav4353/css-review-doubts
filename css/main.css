@@ -1,0 +1,81 @@
+.inline li {
+    display: inline;
+    background-color: #ff0000;
+    width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;  
+}
+
+.block li {
+    display: block;
+    width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;  
+}
+
+.inline-block li {
+    display: inline-block;
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;  
+}
+
+.ta-a {
+    text-align: left;
+}
+
+.ta-b{
+    text-decoration: underline;
+}
+
+.ta-c {
+    text-transform: lowercase;
+}
+.ta-d{
+text-shadow: 2px 2px #ff0000;
+}
+
+.ta-e{
+    text-indent: 50px;
+}
+
+.ta-f{
+    white-space: wrap; 
+    width: 500px; 
+    height: 250px;
+    overflow: hidden;
+    text-overflow: clip; 
+    border: 1px solid #000000;
+}
+
+.ta-g{
+    
+}
+
+.ta-h{
+    
+}
+
+.ta-i{
+    
+}
+
+.first-line::first-line {
+    color: #ff0000;
+    font-variant: small-caps;
+}
+
+.last-line::before {
+    content: "hai";
+    color: #ff0000;
+    font-variant: small-caps;
+
+}
+
+
+
+
